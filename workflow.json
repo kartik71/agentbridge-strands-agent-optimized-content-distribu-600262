@@ -1,0 +1,130 @@
+{
+  "id": "published-published-up-import-1776875604511-17-10",
+  "name": "strands agent optimized content distribution for enhanced viewer reach",
+  "description": "strands agent package imported from strands-agent-optimized_content_distribution_for_enhanced_viewer_reach.zip",
+  "industry": "general",
+  "pattern": "Tool-Use",
+  "complexity": "Intermediate",
+  "tags": [
+    "azure-foundry",
+    "strands",
+    "general",
+    "universal-converter",
+    "strands",
+    "general",
+    "universal-converter",
+    "query_processing",
+    "information_retrieval",
+    "context_augmentation",
+    "response_generation"
+  ],
+  "steps": [
+    {
+      "id": "step-1",
+      "name": "Query Processing: Process and understand the input query or request enhancing sy",
+      "description": "Query Processing: Process and understand the input query or request enhancing system performance, data processing, and user experience. | Agent: Optimized content distribution for enhanced viewer reach | Goal: Strands agent defined in strands-agent-optimized_content_distribution_for_enhanced_viewer_reach/agents/optimized_content_distribution_for_enhanced_viewer_reach.py"
+    },
+    {
+      "id": "step-2",
+      "name": "Information Retrieval: Search and retrieve relevant information from knowledge b",
+      "description": "Information Retrieval: Search and retrieve relevant information from knowledge bases enhancing system performance, data processing, and user experience. | Agent: Optimized content distribution for enhanced viewer reach | Goal: Strands agent defined in strands-agent-optimized_content_distribution_for_enhanced_viewer_reach/agents/optimized_content_distribution_for_enhanced_viewer_reach.py"
+    },
+    {
+      "id": "step-3",
+      "name": "Context Augmentation: Enhance the query with retrieved contextual information en",
+      "description": "Context Augmentation: Enhance the query with retrieved contextual information enhancing system performance, data processing, and user experience. | Agent: Optimized content distribution for enhanced viewer reach | Goal: Strands agent defined in strands-agent-optimized_content_distribution_for_enhanced_viewer_reach/agents/optimized_content_distribution_for_enhanced_viewer_reach.py"
+    },
+    {
+      "id": "step-4",
+      "name": "Response Generation: Generate comprehensive response using augmented context enh",
+      "description": "Response Generation: Generate comprehensive response using augmented context enhancing system performance, data processing, and user experience. | Agent: Optimized content distribution for enhanced viewer reach | Goal: Strands agent defined in strands-agent-optimized_content_distribution_for_enhanced_viewer_reach/agents/optimized_content_distribution_for_enhanced_viewer_reach.py"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "step-1",
+      "type": "agentbridge",
+      "data": {
+        "label": "Query Processing: Process and understand the input query or request enhancing sy",
+        "description": "Query Processing: Process and understand the input query or request enhancing system performance, data processing, and user experience. | Agent: Optimized content distribution for enhanced viewer reach | Goal: Strands agent defined in strands-agent-optimized_content_distribution_for_enhanced_viewer_reach/agents/optimized_content_distribution_for_enhanced_viewer_reach.py",
+        "nodeType": "input",
+        "category": "ai-models",
+        "executionMode": "autonomous"
+      },
+      "position": {
+        "x": 0,
+        "y": 100
+      }
+    },
+    {
+      "id": "step-2",
+      "type": "agentbridge",
+      "data": {
+        "label": "Information Retrieval: Search and retrieve relevant information from knowledge b",
+        "description": "Information Retrieval: Search and retrieve relevant information from knowledge bases enhancing system performance, data processing, and user experience. | Agent: Optimized content distribution for enhanced viewer reach | Goal: Strands agent defined in strands-agent-optimized_content_distribution_for_enhanced_viewer_reach/agents/optimized_content_distribution_for_enhanced_viewer_reach.py",
+        "nodeType": "llm",
+        "category": "ai-models",
+        "executionMode": "autonomous"
+      },
+      "position": {
+        "x": 300,
+        "y": 100
+      }
+    },
+    {
+      "id": "step-3",
+      "type": "agentbridge",
+      "data": {
+        "label": "Context Augmentation: Enhance the query with retrieved contextual information en",
+        "description": "Context Augmentation: Enhance the query with retrieved contextual information enhancing system performance, data processing, and user experience. | Agent: Optimized content distribution for enhanced viewer reach | Goal: Strands agent defined in strands-agent-optimized_content_distribution_for_enhanced_viewer_reach/agents/optimized_content_distribution_for_enhanced_viewer_reach.py",
+        "nodeType": "llm",
+        "category": "ai-models",
+        "executionMode": "autonomous"
+      },
+      "position": {
+        "x": 600,
+        "y": 100
+      }
+    },
+    {
+      "id": "step-4",
+      "type": "agentbridge",
+      "data": {
+        "label": "Response Generation: Generate comprehensive response using augmented context enh",
+        "description": "Response Generation: Generate comprehensive response using augmented context enhancing system performance, data processing, and user experience. | Agent: Optimized content distribution for enhanced viewer reach | Goal: Strands agent defined in strands-agent-optimized_content_distribution_for_enhanced_viewer_reach/agents/optimized_content_distribution_for_enhanced_viewer_reach.py",
+        "nodeType": "output",
+        "category": "ai-models",
+        "executionMode": "autonomous"
+      },
+      "position": {
+        "x": 900,
+        "y": 100
+      }
+    }
+  ],
+  "publishedAt": "2026-04-22T16:48:38.834Z",
+  "destination": "launchpad",
+  "deployments": 25,
+  "lastDeployed": "2026-04-22T16:48:38.834Z",
+  "configuration": {
+    "provider": "azure",
+    "region": "eastus",
+    "compute": "cpu-optimized"
+  },
+  "healthStatus": "healthy",
+  "deploymentCount": 8,
+  "githubRepo": "https://github.com/agentbridge/strands-agent-optimized-content-distribution-for-enhanced-viewer-reach",
+  "maintainer": "You",
+  "downloads": 699,
+  "rating": 4.194120892797121,
+  "createdAt": "2026-04-22T16:48:38.834Z",
+  "updatedAt": "2026-04-22T16:48:38.834Z",
+  "isPublished": true,
+  "isFeatured": false,
+  "deploymentMetadata": {
+    "publishedBy": "You",
+    "publishedAt": "2026-04-22T16:48:38.834Z",
+    "source": "Template Selection",
+    "version": "1.0.0"
+  }
+}
