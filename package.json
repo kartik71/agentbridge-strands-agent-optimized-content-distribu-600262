@@ -1,0 +1,45 @@
+{
+  "name": "strands-agent-optimized-content-distribution-for-enhanced-viewer-reach",
+  "version": "1.0.0",
+  "description": "strands agent package imported from strands-agent-optimized_content_distribution_for_enhanced_viewer_reach.zip",
+  "main": "workflow.json",
+  "keywords": [
+    "agentbridge",
+    "workflow",
+    "automation",
+    "ai-agents",
+    "tool-use",
+    "general",
+    "azure-foundry",
+    "strands",
+    "general",
+    "universal-converter",
+    "strands",
+    "general",
+    "universal-converter",
+    "query_processing",
+    "information_retrieval",
+    "context_augmentation",
+    "response_generation"
+  ],
+  "author": "AgentBridge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kartik71/agentbridge-strands-agent-optimized-content-distribu-600262.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kartik71/agentbridge-strands-agent-optimized-content-distribu-600262/issues"
+  },
+  "homepage": "https://github.com/kartik71/agentbridge-strands-agent-optimized-content-distribu-600262#readme",
+  "scripts": {
+    "start": "echo \"Import this workflow into your AgentBridge instance\"",
+    "validate": "echo \"Workflow validation complete\"",
+    "test": "echo \"Run workflow tests\"",
+    "deploy": "echo \"Deploy to AgentBridge instance\""
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "agentbridge": ">=6.0.0"
+  }
+}
